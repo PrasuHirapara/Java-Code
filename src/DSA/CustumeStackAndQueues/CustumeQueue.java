@@ -1,4 +1,4 @@
-package DSA.StackAndQueues;
+package DSA.CustumeStackAndQueues;
 
 public class CustumeQueue {
 
