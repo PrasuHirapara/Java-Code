@@ -1,0 +1,8 @@
+Hash does not allow duplicates.
+Reduces time complexity.
+Unordered Structure.
+
+Time Complexity for HashSet ( has method likes linked list ):
+    Insert O(1)
+    Search O(1)
+    Delete O(1)
