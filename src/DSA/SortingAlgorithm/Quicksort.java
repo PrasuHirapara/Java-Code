@@ -1,16 +1,26 @@
 package DSA.SortingAlgorithm;
 
+import java.util.Arrays;
+
 public class Quicksort {
-    // Space Complexity O(N*N)
-    // Stable
 
-    public int[] sorting(int[] nums){
-        quick(nums,0,nums.length-1);
+    public static void main(String[] args) {
+        int[] arr = {2,21,243,2,21,2,56};
 
-        return nums;
+        sorting(arr);
+
+        System.out.println(Arrays.toString(arr));
     }
 
-    private void quick(int[] nums, int low, int high) {
+    // Time complexity O(N*logN)
+    // Space Complexity O(log N)
+    // Stable
+
+    public static void sorting(int[] nums){
+        quick(nums,0,nums.length-1);
+    }
+
+    private static void quick(int[] nums, int low, int high) {
         if(low >= high){
             return;
         }

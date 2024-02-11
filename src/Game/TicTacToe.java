@@ -3,6 +3,7 @@ package Game;
 import java.util.*;
 
 public class TicTacToe {
+
     private boolean flag = true;
     public void start1V1() {
         try (Scanner sc = new Scanner(System.in)) {
@@ -291,7 +292,7 @@ public class TicTacToe {
     }
 
     private boolean isSafe(char[][] board, int x, int y) {
-        if (x >= 4 && y >= 4) {
+        if (x >= 4  || y>= 4 || x <= 0 || y <= 0) {
             return false;
         }
         return board[x - 1][y - 1] == '_';

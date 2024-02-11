@@ -3,7 +3,7 @@ package DSA.SortingAlgorithm;
 import java.util.Arrays;
 
 public class MergeSort {
-    // Time Complexity O(N + NlogN)
+    // Time Complexity O(NlogN)
     // Not Stable
     public int[] sorting(int[] nums){
         if(nums.length == 1){

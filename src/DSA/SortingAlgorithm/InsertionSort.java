@@ -1,7 +1,7 @@
 package DSA.SortingAlgorithm;
 
 public class InsertionSort {
-    // Time Complexty : O(N*N)
+    // Time Complexity : O(N*N)
     // Space complexity : (1)
     // Stable algorithm.
 
