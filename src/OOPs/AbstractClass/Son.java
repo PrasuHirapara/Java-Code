@@ -6,7 +6,7 @@ public class Son extends Parent{
 
     // In inheritance, you can make Shape class abstract.
     @Override
-    public void carrer(String name) {
+    public void carrier(String name) {
         System.out.println("I want to be "+name);
     }
 

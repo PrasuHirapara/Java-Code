@@ -14,5 +14,33 @@ package OOPs.MultiTasking;
 public class Main {
     public static void main(String[] args){
 
+        Example ex = new Example();
+        Example2 ex2 = new Example2();
+
+        ex.start();
+       // ex2.run();
     }
+}
+
+class Example extends Thread{
+    @Override
+    public void run(){
+        for(int i=1; i<10; i++){
+            System.out.println(i);
+
+
+        }
+    }
+}
+
+class Example2 implements Runnable {
+
+    @Override
+    public void run(){
+        for(int i=11; i<20; i++){
+            System.out.println(i);
+
+        }
+    }
+
 }

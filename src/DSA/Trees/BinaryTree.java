@@ -5,7 +5,7 @@ import java.util.Queue;
 
 public class BinaryTree {
     private static int index = -1;
-    private class Node{
+    private static class Node{
         private int data;
         private Node left,right;
 

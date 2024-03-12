@@ -6,7 +6,7 @@ public class Daughter extends Parent{
     }
 
     @Override
-    public void carrer(String name) {
+    public void carrier(String name) {
         System.out.println("I want to be "+name);
     }
 

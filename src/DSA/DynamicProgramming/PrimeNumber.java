@@ -1,4 +1,4 @@
-package DynamicProgramming;
+package DSA.DynamicProgramming;
 
 public class PrimeNumber {
     private long totalPrime = 0;

@@ -1,0 +1,15 @@
+JDBC : Java Database Connectivity is a java api for connecting java ans SQL
+
+Types of JDBC drivers :
+    1) JDBC - ODBC Bridge driver
+    2) Native api party java driver
+    3) Network Protocol Pure Java driver
+    4) Thin driver
+
+JDBC Component:
+    DriverManager class : Connecting SQL
+    Connection interface : Setting instance of SQL for query processing
+    Statement and PreparedStatement interface : Helps in Query running
+    ResultSet interface : Instance of SQL query output data
+
+

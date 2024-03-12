@@ -13,6 +13,6 @@ public abstract class Parent {
     public Parent(int age){
         this.age = age;
     }
-    abstract public void carrer(String name);
+    abstract public void carrier(String name);
     abstract public void partner(String name,int age);
 }

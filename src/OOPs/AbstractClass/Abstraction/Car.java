@@ -1,4 +1,4 @@
-package OOPs.Abstraction;
+package OOPs.AbstractClass.Abstraction;
 
 public class Car extends Vehicle {
     public Car(String make, String model, int year) {

@@ -1,4 +1,4 @@
-package OOPs.Abstraction;
+package OOPs.AbstractClass.Abstraction;
 /*
     Hiding implementation details from hte user.Only the highlighted services will be provided.
     Achieved by Abstract classes and Interfaces.

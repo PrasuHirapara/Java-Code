@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class CustomArrayList<T> {
     private Object[] data;
-    private static int DEFAULT_SIZE = 10;
+    private static final int DEFAULT_SIZE = 10;
     private int size = 0; // Working as index also.
 
     public CustomArrayList(){

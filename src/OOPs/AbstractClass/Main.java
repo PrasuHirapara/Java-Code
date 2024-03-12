@@ -4,12 +4,12 @@ public class Main {
     public static void main(String[] args) {
         Son son = new Son(21);
 
-        son.carrer("Doctor");
+        son.carrier("Doctor");
         son.partner("Radha",20);
 
         Parent p = new Parent(23) {
             @Override
-            public void carrer(String name) {
+            public void carrier(String name) {
                 System.out.println(name);
             }
 
